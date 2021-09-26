@@ -6,20 +6,20 @@ Short Python primer for devs with experience in another language (such as Java) 
 * Install Python 3.9.x using the official canonical Python [web site ](https://www.python.org/)
 * Clone this github repo at some preferred location on your system.
 * `cd` into the cloned project
-* Create a virtual Python environment (in this case named `.venv`:
+* Create a virtual Python environment (in this case named `.venv`):
 
 	```bash
 	python3.9 -m venv .venv
 	
 	```
 
-* Activate the environment (you'll have to do this step every time you come back to work on this project) - this basically tells you shell which Python to use - in this this case the one located in `.venv`:
+* Activate the environment (you'll have to do this step every time you come back to work on this project) - this basically tells your shell which Python to use - in this this case the one located in `.venv`:
 
 	```bash
 	source .venv/bin/activate
 	```
 	
-* The first time only, you'll need to install various 3rd party packages we'll use in this project:
+* The first time only (or any time the `requirements.txt` file is updated), you'll need to install various 3rd party packages we'll use in this project:
  
 	```bash
 	pip install -r requirements.txt
@@ -41,3 +41,9 @@ Each Jupyter notebook is essentially a front-end to the Python interactive promp
 You could use the plain Python REPL by typing `python` at the command line (after activating the virtual environment) and get a text-based REPL. 
 
 Jupyter is nicer because it remembers your code (as long as you save it), you can add non code blocks (using Markdown for example), and you can easily run previous commands by selecting the cell and running it. Amongst other things...
+
+
+## After Completing the Primer
+Once you have completed this primer, you should be ready to move on to more advanced Python in this repo:
+
+[Python Deep Dive Series](https://github.com/fbaptiste/python-deepdive)
