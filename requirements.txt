@@ -1,3 +1,0 @@
-# Assumes Python 3.9.x environment
-
-notebook==6.4.4
